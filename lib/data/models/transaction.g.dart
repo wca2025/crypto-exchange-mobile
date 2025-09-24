@@ -1,0 +1,83 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'transaction.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_Transaction _$$_TransactionFromJson(Map<String, dynamic> json) =>
+    _$_Transaction(
+      id: json['id'] as int,
+      listPrice: (json['listPrice'] as num?)?.toDouble(),
+      offer: (json['offer'] as num?)?.toDouble(),
+      reservePrice: (json['reservePrice'] as num?)?.toDouble(),
+      startPrice: (json['startPrice'] as num?)?.toDouble(),
+      startDate: (json['startDate'] as num?)?.toDouble(),
+      endDate: (json['endDate'] as num?)?.toDouble(),
+      reserveBid: (json['reserveBid'] as num?)?.toDouble(),
+      scheduledBid: (json['scheduledBid'] as num?)?.toDouble(),
+      timeRemainingA: (json['timeRemainingA'] as num?)?.toDouble(),
+      timeRemainingB: (json['timeRemainingB'] as num?)?.toDouble(),
+      noOfTimesItemSold: (json['noOfTimesItemSold'] as num?)?.toDouble(),
+      amount: (json['amount'] as num?)?.toDouble(),
+      newAmount: (json['newAmount'] as num?)?.toDouble(),
+      comission: (json['comission'] as num?)?.toDouble(),
+      seller: json['seller'] as String?,
+      creator: json['creator'] as String?,
+      buyer: json['buyer'] as String?,
+      sellerIncome: (json['sellerIncome'] as num?)?.toDouble(),
+      label: json['label'] as String?,
+      txid: json['txid'] as String?,
+      typeoff: json['typeoff'] as String?,
+      sender: json['sender'] as String?,
+      destination: json['destination'] as String?,
+      royalty: (json['royalty'] as num?)?.toDouble(),
+      lastSaleTime: (json['lastSaleTime'] as num?)?.toDouble(),
+      first: (json['first'] as num?)?.toDouble(),
+      last: (json['last'] as num?)?.toDouble(),
+      timeToAuction: (json['timeToAuction'] as num?)?.toDouble(),
+      DurationA: (json['DurationA'] as num?)?.toDouble(),
+      DurationB: (json['DurationB'] as num?)?.toDouble(),
+      networkFee: (json['networkFee'] as num?)?.toDouble(),
+      createdAt: (json['createdAt'] as num?)?.toDouble(),
+      updatedAt: (json['updatedAt'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$$_TransactionToJson(_$_Transaction instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'listPrice': instance.listPrice,
+      'offer': instance.offer,
+      'reservePrice': instance.reservePrice,
+      'startPrice': instance.startPrice,
+      'startDate': instance.startDate,
+      'endDate': instance.endDate,
+      'reserveBid': instance.reserveBid,
+      'scheduledBid': instance.scheduledBid,
+      'timeRemainingA': instance.timeRemainingA,
+      'timeRemainingB': instance.timeRemainingB,
+      'noOfTimesItemSold': instance.noOfTimesItemSold,
+      'amount': instance.amount,
+      'newAmount': instance.newAmount,
+      'comission': instance.comission,
+      'seller': instance.seller,
+      'creator': instance.creator,
+      'buyer': instance.buyer,
+      'sellerIncome': instance.sellerIncome,
+      'label': instance.label,
+      'txid': instance.txid,
+      'typeoff': instance.typeoff,
+      'sender': instance.sender,
+      'destination': instance.destination,
+      'royalty': instance.royalty,
+      'lastSaleTime': instance.lastSaleTime,
+      'first': instance.first,
+      'last': instance.last,
+      'timeToAuction': instance.timeToAuction,
+      'DurationA': instance.DurationA,
+      'DurationB': instance.DurationB,
+      'networkFee': instance.networkFee,
+      'createdAt': instance.createdAt,
+      'updatedAt': instance.updatedAt,
+    };
